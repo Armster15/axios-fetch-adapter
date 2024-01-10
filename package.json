@@ -1,6 +1,6 @@
 {
     "name": "@armster/axios-fetch-adapter",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "description": "Fetch adapter for axios",
     "main": "./dist/index.js",
     "module": "./dist/index.mjs",
