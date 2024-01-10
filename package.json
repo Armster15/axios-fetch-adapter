@@ -12,6 +12,9 @@
             "types": "./dist/index.d.ts"
         }
     },
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "release": "np",
         "test": "echo done",
