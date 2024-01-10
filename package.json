@@ -2,13 +2,21 @@
     "name": "@vespaiach/axios-fetch-adapter",
     "version": "0.3.1",
     "description": "Fetch adapter for axios",
-    "main": "index.js",
-    "module": "index.js",
-    "types": "index.d.ts",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "require": "./dist/index.js",
+            "import": "./dist/index.mjs",
+            "types": "./dist/index.d.ts"
+        }
+    },
     "scripts": {
         "release": "np",
         "test": "echo done",
-        "dev": "vite"
+        "dev": "vite",
+        "build": "tsup index.js --format cjs,esm --dts --clean"
     },
     "repository": {
         "type": "git",
@@ -28,6 +36,8 @@
     "devDependencies": {
         "axios": "^0.27.2",
         "np": "^7.6.1",
+        "tsup": "^8.0.1",
+        "typescript": "^5.3.3",
         "vite": "^2.8.0"
     },
     "peerDependencies": {
