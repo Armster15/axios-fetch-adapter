@@ -1,5 +1,5 @@
 {
-    "name": "@vespaiach/axios-fetch-adapter",
+    "name": "@armster/axios-fetch-adapter",
     "version": "0.3.1",
     "description": "Fetch adapter for axios",
     "main": "./dist/index.js",
@@ -20,7 +20,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/vespaiach/axios-fetch-adapter.git"
+        "url": "git+https://github.com/Armster15/axios-fetch-adapter.git"
     },
     "keywords": [
         "axios",

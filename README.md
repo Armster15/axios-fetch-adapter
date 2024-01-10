@@ -1,3 +1,6 @@
+This is a fork of [@vespaiach/axios-fetch-adapter](https://github.com/vespaiach/axios-fetch-adapter)
+--
+
 # Why
 
 I'm going to adopt PWA to my web applications and those web apps are heavily using Axios with the default XMLHTTPRequest adapter. Hence, I have to switch to Fetch adapter; However, Axios doesn't have an adapter for fetch API for now. So I write one to use while waiting for an offical one from Axios.
@@ -8,7 +11,7 @@ You can install the adapter directly from this repository URL or feel free to co
 
 ``` sh
 npm install axios
-npm install @vespaiach/axios-fetch-adapter
+npm install @armster/axios-fetch-adapter
 ```
 
 There are two ways to use it:
